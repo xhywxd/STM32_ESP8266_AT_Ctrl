@@ -1,0 +1,84 @@
+AT+CWSTOPSMART
+
+
+OK
+AT+CWSTARTSMART=3
+
+
+OK
+smartconfig type:AIRKISS  CF
+Smart get wifi info
+ssid:642
+password:15110015676
+WIFI CONNECTED
+WIFI GOT IP
+smartconfig connected wifi
+
+AT+CWSTOPSMART
+
+
+OK
+AT+CWSTARTSMART=3
+
+
+OK
+WIFI DISCONNECT
+smartconfig type:AIRKISS
+Smart get wifi info
+ssid:642
+password:1511001567
+
+AT+CWSTOPSMART
+
+
+OK
+AT+CWSTARTSMART=3
+
+
+OK
+smartconfig type:AIRKISS
+Smart get wifi info
+ssid:642
+password:15110015676
+WIFI CONNECTED
+WIFI GOT IP
+smartconfig connected wifi
+AT+CWSTOPSMART
+
+
+OK
+AT+CWSTARTSMART=3
+
+
+OK
+WIFI DISCONNECT
+smartconfig type:AIRKISS
+Smart get wifi info
+ssid:642
+password:1511001567
+AT+CWSTOPSMART
+
+
+OK
+
+#define STR_OK    0x9A
+#define STR_ERROR 0x38
+
+#define STR_AT    0x95
+
+#define STR_AT_CWMODE_DEF1    0x1B
+#define STR_AT_CWMODE_DEF2    0x1C
+#define STR_AT_CWMODE_DEF3    0x1D
+
+#define STR_AT_CWAUTOCONN0    0x2E
+#define STR_AT_CWAUTOCONN1    0x2F
+
+#define STR_AT_CWSTARTSMART1    0xDD
+#define STR_AT_CWSTARTSMART2    0xDE
+#define STR_AT_CWSTARTSMART3    0xDF
+#define STR_WIFI_DISCONNECT     0x39
+#define STR_smartconfig_type_AIRKISS 0xCF
+#define STR_Smart_get_wifi_info 0x02
+#define STR_WIFI_CONNECTED      0xE2
+#define STR_WIFI_GOT_IP         0xF2
+#define STR_smartconfig_connected_wifi 0x69

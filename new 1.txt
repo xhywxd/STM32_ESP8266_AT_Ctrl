@@ -1,0 +1,19 @@
+#define   OK	0x4C3233EE
+#define   ERROR	0xF44E5B26
+#define   smartconfig type:AIRKISS	0x13140CDB
+#define   Smart get wifi info	0xA92DA06E
+#define   ssid:624	0x8824B869
+#define   password:15110015676	0x489CA84E
+#define   WIFI CONNECTED	0x2D0B6EB2
+#define   WIFI GOT IP	0x723AEEEA
+#define   smartconfig connected wifi	0x729B3CD3
+#define   STATUS:2	0x70114E6C
+#define   STATUS:3	0x70114E6D
+#define   STATUS:4	0x70114E6E
+#define   STATUS:5	0x70114E6F
+#define   +CWJAP:1	0xBFFB2F4F
+#define   +CWJAP:2	0xBFFB2F50
+#define   +CWJAP:3	0xBFFB2F51
+#define   +CWJAP:4	0xBFFB2F52
+#define   FAIL	0x4F372B88
+#define   ALREADY CONNECT	0x7FAE7A60

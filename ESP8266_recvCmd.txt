@@ -1,0 +1,19 @@
+OK
+ERROR
+smartconfig type:AIRKISS
+Smart get wifi info
+ssid:624
+password:15110015676
+WIFI CONNECTED
+WIFI GOT IP
+smartconfig connected wifi
+STATUS:2
+STATUS:3
+STATUS:4
+STATUS:5
++CWJAP:1
++CWJAP:2
++CWJAP:3
++CWJAP:4
+FAIL
+ALREADY CONNECT
